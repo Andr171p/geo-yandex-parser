@@ -30,7 +30,7 @@ elem_search_string = WebDriverWait(driver, delay) \
     (By.XPATH, "//input[@class='input__control _bold']")))
 
 # Вписываем данные в форму
-elem_search_string.send_keys('Муниципальное автономное , общеобразовательное учреждение гимназия № 16 города Тюмени, г. Тюмень')
+elem_search_string.send_keys('МОУ "СОШ №5" Муниципальное общеобразовательное учреждение "Средняя школа №5 городского округа Стрежевой с углубленным изучением отдельных предметов" Томской области, г. Стрежевой')
 # Запускаем поиск
 elem_search_string.send_keys(Keys.ENTER)
 time.sleep(5)
@@ -48,3 +48,5 @@ phone = driver.find_element(By.XPATH, '//div[@class="orgpage-phones-view__phone-
 print(phone.text)
 rating = driver.find_element(By.XPATH, '//span[@class="business-rating-badge-view__rating-text"]')
 print(rating.text)
+address = driver.find_element(By.XPATH, '//a[@class="orgpage-header-view__address"]')
+print(address.get_attribute("title"))
