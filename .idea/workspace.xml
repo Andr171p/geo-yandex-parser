@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2bac9b9-d514-42b4-8f22-c58d0b72366a" name="Changes" comment="[geo-yandex-parser] 26.12.2024">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d2bac9b9-d514-42b4-8f22-c58d0b72366a" name="Changes" comment="[geo-yandex-parser] 27.12.2024 extract data from place name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/driver/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/driver/base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +38,12 @@
   "keyToString": {
     "Python.main.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.utils.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.utils">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GeoParser" />
       <option name="ENV_FILES" value="" />
@@ -86,8 +88,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GeoParser" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.utils" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
       </list>
@@ -117,11 +142,29 @@
       <option name="project" value="LOCAL" />
       <updated>1735225595646</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[geo-yandex-parser] 26.12.2024 testing extract data from page">
+      <option name="closed" value="true" />
+      <created>1735227758499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735227758499</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[geo-yandex-parser] 27.12.2024 extract data from place name">
+      <option name="closed" value="true" />
+      <created>1735248617956</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735248617956</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[geo-yandex-parser] 26.12.2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="[geo-yandex-parser] 26.12.2024" />
+    <MESSAGE value="[geo-yandex-parser] 26.12.2024 testing extract data from page" />
+    <MESSAGE value="[geo-yandex-parser] 27.12.2024 extract data from place name" />
+    <option name="LAST_COMMIT_MESSAGE" value="[geo-yandex-parser] 27.12.2024 extract data from place name" />
   </component>
 </project>
